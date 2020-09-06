@@ -1,0 +1,41 @@
+body{
+    background-color: #fdcb9e !important;
+    }
+    .container{
+        height: 100vh !important;
+    }
+    .center{
+        text-align: center !important;
+    }
+
+    h1, h3{
+        font-family: 'Oswald', sans-serif;
+        color: #3f3f44;
+    }
+    h1{
+        font-size: 50px;
+        margin-top: 50px;
+    }
+    .dolar, .peso{
+        width: 50%;
+    }
+    img{
+        height: 200px;
+        width: 200px;
+        margin: 100px 30px 30px 30px;
+    }
+    hr{
+        background: #3f3f44;
+    }
+
+    @media (max-width: 770px){
+        img{
+        height: 100px !important;
+        width: 100px !important;
+        }
+
+        .peso, .dolar{
+            width: 100% !important;
+            flex-wrap: wrap;
+        }
+    }
